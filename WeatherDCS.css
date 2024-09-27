@@ -1,0 +1,41 @@
+.weather-container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.weather-data {
+    margin-bottom: 20px;
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+}
+
+.warning-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.warning-table th, .warning-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.warning-table th {
+    background-color: #f2f2f2;
+}
+
+.warning-table tr:hover {
+    background-color: #f1f1f1; /* Change background on hover */
+}
+
+.warning-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra striping */
+}

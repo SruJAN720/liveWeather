@@ -1,0 +1,23 @@
+/* RouteTime.css */
+.route-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.route-info {
+    border: 1px solid #007BFF;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s;
+}
+
+.route-info:hover {
+    background-color: #e2e6ea;
+}
+
+h2 {
+    text-align: center;
+    color: #007BFF;
+}
